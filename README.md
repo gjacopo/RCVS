@@ -18,10 +18,10 @@ Inspired by/based on `RIOS` module for *Raster Computer Vision Simplification*.
    
 Python basic tools for geo-processing workflow of raster and vector data:
     - using the input/output utility functions of [`RIOS`][RIOS] (Raster Input Output
-      Simplification) module, itself based on [gdal][gdal] module,
+      Simplification) module, itself based on [`gdal`][gdal] module,
     - using external Computer Vision and Image Processing processing (CVIP) 
-      algorithms provided (when installed independently) by modules like [PIL][PIL], 
-      [OpenCV][OpenCV], [skimage][skimage], [matplotlib][matplotlib] and/or [scipimage][scipimage]\ .
+      algorithms provided (when installed independently) by modules like [`PIL`][PIL], 
+      [`OpenCV`][OpenCV] (_i.e._ `cv2`), [`skimage`][skimage], [`matplotlib`][matplotlib] and/or [`scipimage`][scipimage].
 
 This way, a 'simple' definition of processing workflow is possible
                 
@@ -42,30 +42,30 @@ The main features of the new `rcvs.cvapplier` method are:
 * return or write multiple outputs.
     
 Note that from version 1.2, parallel implementation has also been incorporated 
-(using either `multiprocessing` or `mpi` module) in [RIOS][RIOS].
+(using either `multiprocessing` or `mpi` module) in [`RIOS`][RIOS].
 
 **Examples**
                 
 As to demonstrate how to reproduce some of the standard/simple CVIP processing
 workflows, some examples provided by CVIP platforms have been adapted using 
 RCVS, namely:
-* RANSAC matching with [skimage][skimage] methods, 
-* SLIC segmentation with [skimage][skimage] methods,
-* pyramid decomposition with [OpenCV][OpenCV] methods, 
-* template matching with [OpenCV][OpenCV] methods, 
+* RANSAC matching with [`skimage`][skimage] methods, 
+* SLIC segmentation with `skimage` methods,
+* pyramid decomposition with [`OpenCV`][OpenCV] methods, 
+* template matching with `OpenCV` methods, 
 
 as well as some independent implementations:
 * image cross-correlation.
 
 **Dependencies**
 
-*require*:      `gdal`, `rios`, `numpy`, `scipy`,       \
-                `Queue`, `multiprocessing`,                       \
-                `math`, `re`, `inspect`, `operator`,    \    
+*require*:      `gdal`, `rios`, `numpy`, `scipy`,       
+                `Queue`, `multiprocessing`,                       
+                `math`, `re`, `inspect`, `operator`,       
                 `itertools`, `collections`           
 
-*optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`,  \
-                `vigra`, `mahotas`
+*optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`, 
+                [`vigra`][vigra], [`mahotas`][mahotas]
                 pathos
 
 [RIOS]: https://bitbucket.org/chchrsc/rios
