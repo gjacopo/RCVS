@@ -28,21 +28,21 @@ This way, a 'simple' definition of processing workflow is possible
 **Note**
 
 Only the :meth:`applier` (block) processor has been override: this functionality is 
-available (in the original code) through the :meth:`apply` function of the module 
-:mod:`applier.py`\ . This function has been rewritten (and improved) in overriding
-:meth:`rcvs.cvapplier` method. 
+available (in the original code) through the `apply` function of the module 
+`applier.py`\ . This function has been rewritten (and improved) in overriding
+`rcvs.cvapplier` method. 
 
-The main features of the new :meth:`rcvs.cvapplier` method are:
+The main features of the new `rcvs.cvapplier` method are:
     - apply a workflow of CVIP methods over the raster images through 
       appropriate redirection/reformatting of input/output block of data as it 
       deals with all the array format conversions necessary for 'communication' 
       between the different CVIP modules used,
-    - process blocks in parallel through a map/reduce (namely: :meth:`apply_async`/:meth:`reduce`) 
+    - process blocks in parallel through a map/reduce (namely: apply_async`/`reduce`) 
       like schema as it supports block and CPU multiprocessing,
     - return or write multiple outputs.
     
 Note that from version 1.2, parallel implementation has also been incorporated 
-(using either :mod:`multiprocessing` or :mod:`mpi` module) in |RIOS|.
+(using either `multiprocessing` or `mpi` module) in |RIOS|.
 
 **Examples**
                 
@@ -59,8 +59,8 @@ as well as some independent implementations:
 
 **Dependencies**
 
-*require*:      `gdal`, :mod:`rios`, `numpy`, `scipy`,       \
-                `Queue`, :mod:`multiprocessing`,                       \
+*require*:      `gdal`, `rios`, `numpy`, `scipy`,       \
+                `Queue`, `multiprocessing`,                       \
                 `math`, `re`, `inspect`, `operator`,    \    
                 `itertools`, `collections`           
 
@@ -70,21 +70,21 @@ as well as some independent implementations:
 
 .. Links
 
-.. _RIOS: https://bitbucket.org/chchrsc/rios
-.. |RIOS| replace:: `RIOS <RIOS_>`_
-.. _gdal: https://github.com/geopy/geopy
-.. |gdal| replace:: `gdal <gdal_>`_
-.. _matplotlib: http://matplotlib.org
-.. |matplotlib| replace:: `matplotlib <matplotlib_>`_
-.. _OpenCV: http://opencv.org
-.. |OpenCV| replace:: `OpenCV <OpenCV_>`_
-.. _skimage: http://scikits.appspot.com/scikits-image
-.. |skimage| replace:: `skimage <skimage_>`_
-.. _PIL: http://www.pythonware.com/products/pil
-.. |PIL| replace:: `PIL <PIL_>`_
-.. _vigra: http://ukoethe.github.io/vigra/doc/vigranumpy/index.html
-.. |vigra| replace:: `vigra <vigra_>`_
-.. _mahotas: http://luispedro.org/software/mahotas
-.. |mahotas| replace:: `mahotas <mahotas_>`_
-.. _scipimage : http://docs.scipy.org/doc/scipy/reference/ndimage.html
-.. |scipimage| replace:: `scipy.ndimage <scipimage_>`_
+_RIOS: https://bitbucket.org/chchrsc/rios
+|RIOS| replace:: `RIOS <RIOS_>`_
+_gdal: https://github.com/geopy/geopy
+|gdal| replace:: `gdal <gdal_>`_
+_matplotlib: http://matplotlib.org
+|matplotlib| replace:: `matplotlib <matplotlib_>`_
+_OpenCV: http://opencv.org
+|OpenCV| replace:: `OpenCV <OpenCV_>`_
+_skimage: http://scikits.appspot.com/scikits-image
+|skimage| replace:: `skimage <skimage_>`_
+_PIL: http://www.pythonware.com/products/pil
+|PIL| replace:: `PIL <PIL_>`_
+_vigra: http://ukoethe.github.io/vigra/doc/vigranumpy/index.html
+|vigra| replace:: `vigra <vigra_>`_
+_mahotas: http://luispedro.org/software/mahotas
+|mahotas| replace:: `mahotas <mahotas_>`_
+_scipimage : http://docs.scipy.org/doc/scipy/reference/ndimage.html
+|scipimage| replace:: `scipy.ndimage <scipimage_>`_
