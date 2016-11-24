@@ -17,7 +17,7 @@ Inspired by/based on `RIOS` module for *Raster Computer Vision Simplification*.
 **Description**
    
 Python basic tools for geo-processing workflow of raster and vector data:
-    - using the input/output utility functions of |RIOS| (Raster Input Output
+    - using the input/output utility functions of [RIOS][RIOS] (Raster Input Output
       Simplification) module, itself based on |gdal| module,
     - using external Computer Vision and Image Processing processing (CVIP) 
       algorithms provided (when installed independently) by modules like |PIL|, 
@@ -70,8 +70,7 @@ as well as some independent implementations:
 
 .. Links
 
-_RIOS: https://bitbucket.org/chchrsc/rios
-|RIOS| replace:: `RIOS <RIOS_>`_
+[RIOS]: https://bitbucket.org/chchrsc/rios
 _gdal: https://github.com/geopy/geopy
 |gdal| replace:: `gdal <gdal_>`_
 _matplotlib: http://matplotlib.org
