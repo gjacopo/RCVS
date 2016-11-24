@@ -2,11 +2,11 @@ RCVS
 ====
 
 Module for automatization of geo-processing workflow over raster and vector data.
-————————————————————————————————————————
+————————————————————————————————————
 
 **About**
 
-Inspired by/based on :mod:`RIOS` module for *Raster Computer Vision Simplification*.
+Inspired by/based on `RIOS` module for *Raster Computer Vision Simplification*.
 
 *credits*:      `grazzja <jacopo.grazzini@ec.europa.eu>`_ 
 
@@ -16,8 +16,7 @@ Inspired by/based on :mod:`RIOS` module for *Raster Computer Vision Simplificati
 
 **Description**
    
-Python basic tools for applying a geo-processing workflow over raster and vector 
-data:
+Python basic tools for geo-processing workflow of raster and vector data:
     - using the input/output utility functions of |RIOS| (Raster Input Output
       Simplification) module, itself based on |gdal| module,
     - using external Computer Vision and Image Processing processing (CVIP) 
@@ -45,9 +44,6 @@ The main features of the new :meth:`rcvs.cvapplier` method are:
 Note that from version 1.2, parallel implementation has also been incorporated 
 (using either :mod:`multiprocessing` or :mod:`mpi` module) in |RIOS|.
 
-**RIOS CANNOT BE DISTRIBUTED WITH KINKi** project owing to the incompatibility
-of GNU GPL and EUPL licenses.
-
 **Examples**
                 
 As to demonstrate how to reproduce some of the standard/simple CVIP processing
@@ -63,16 +59,14 @@ as well as some independent implementations:
 
 **Dependencies**
 
-*require*:      :mod:`gdal`, :mod:`rios`, :mod:`numpy`, :mod:`scipy`,       \
-                :mod:`Queue`, :mod:`multiprocessing`,                       \
-                :mod:`math`, :mod:`re`, :mod:`inspect`, :mod:`operator`,    \    
-                :mod:`itertools`, :mod:`collections`           
+*require*:      `gdal`, :mod:`rios`, `numpy`, `scipy`,       \
+                `Queue`, :mod:`multiprocessing`,                       \
+                `math`, `re`, `inspect`, `operator`,    \    
+                `itertools`, `collections`           
 
-*optional*:     :mod:`cv2`, :mod:`skimage`, :mod:`PIL`, :mod:`matplotlib`,  \
-                :mod:`vigra`, :mod:`mahotas`
+*optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`,  \
+                `vigra`, `mahotas`
                 pathos
-
-**Contents**
 
 .. Links
 
