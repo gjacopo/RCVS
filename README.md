@@ -8,8 +8,6 @@ Module for automatization of geo-processing workflow over raster and vector data
 
 Inspired by/based on `RIOS` module for *Raster Computer Vision Simplification*.
 
-*credits*:      `grazzja <jacopo.grazzini@ec.europa.eu>`
-
 *version*:      0.9
 
 *since*:        Fri May 31 10:20:51 2013
@@ -59,14 +57,9 @@ as well as some independent implementations:
 
 **Dependencies**
 
-*require*:      `gdal`, `rios`, `numpy`, `scipy`,       
-                `Queue`, `multiprocessing`,                       
-                `math`, `re`, `inspect`, `operator`,       
-                `itertools`, `collections`           
+*require*:      `gdal`, `rios`, `numpy`, `scipy`,  `Queue`, `multiprocessing`, `math`, `re`, `inspect`, `operator`, `itertools`, `collections`           
 
-*optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`, 
-                [`vigra`][vigra], [`mahotas`][mahotas]
-                pathos
+*optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`, [`vigra`][vigra], [`mahotas`][mahotas], pathos
 
 [RIOS]: https://bitbucket.org/chchrsc/rios
 [gdal]: https://github.com/geopy/geopy
