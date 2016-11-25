@@ -73,4 +73,4 @@ as well as some independent implementations:
 [PIL]: http://www.pythonware.com/products/pil
 [vigra]: http://ukoethe.github.io/vigra/doc/vigranumpy/index.html
 [mahotas]: http://luispedro.org/software/mahotas
-[scipimage] : http://docs.scipy.org/doc/scipy/reference/ndimage.html
+[scipimage]: http://docs.scipy.org/doc/scipy/reference/ndimage.html
