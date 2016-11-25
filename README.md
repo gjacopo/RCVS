@@ -10,7 +10,7 @@ Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of 
 
 **About**
 
-Inspired by/based on `RIOS` module for *Raster Computer Vision Simplification*.
+Inspired by/based on [`RIOS`[RIOS] module for *Raster Computer Vision Simplification*.
 
 *version*:      0.9
 
