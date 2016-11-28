@@ -6,7 +6,7 @@ Module for automatization of geo-processing workflow over raster and vector data
 
 **About**
 
-Inspired by/based on [`RIOS`][RIOS] module for *Raster Computer Vision Simplification*. See [reference](#Reference) below.
+Based on [`RIOS`][RIOS] original module for *Raster Computer Vision Simplification* (as part of the [`RSGISLib`](RSGISLib) library), this module extends the implementation for further integration of Computer Vision and Image Processing processing features. See [references](#References) below.
 
 *version*:      0.9
 
@@ -63,6 +63,7 @@ as well as some independent implementations:
 
 *optional*:     `cv2`, `skimage`, `PIL`, `matplotlib`, [`vigra`][vigra], [`mahotas`][mahotas], pathos
 
+[RSGISLib]: http://www.rsgislib.org/
 [RIOS]: https://bitbucket.org/chchrsc/rios
 [gdal]: https://github.com/geopy/geopy
 [matplotlib]: http://matplotlib.org
@@ -73,6 +74,7 @@ as well as some independent implementations:
 [mahotas]: http://luispedro.org/software/mahotas
 [scipimage]: http://docs.scipy.org/doc/scipy/reference/ndimage.html
 
-**<a name="Reference"></a>Reference**
+**<a name="References"></a>References**
 
 * Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of Pléiades orthoimagery**](http://publications.jrc.ec.europa.eu/repository/handle/JRC82308), _Publications Office of the European Union_, doi:[0.2788/97660](http://dx.doi.org/10.2788/97660).
+* Bunting P., Clewley D., Lucas R.M., and Gillingham S. (2014): [**The Remote Sensing and GIS Software Library (RSGISLib)**](http://www.sciencedirect.com/science/article/pii/S0098300413002288), _Computers & Geosciences_, 62:216-226, doi:[10.1016/j.cageo.2013.08.007](http://dx.doi.org/10.1016/j.cageo.2013.08.007).
