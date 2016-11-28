@@ -4,10 +4,6 @@ RCVS
 Module for automatization of geo-processing workflow over raster and vector data.
 ---
 
-Reference for this development is:
-
-Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of Pléiades orthoimagery**](http://publications.jrc.ec.europa.eu/repository/handle/JRC82308), _Publications Office of the European Union_, doi:[0.2788/97660](http://dx.doi.org/10.2788/97660).
-
 **About**
 
 Inspired by/based on [`RIOS`][RIOS] module for *Raster Computer Vision Simplification*.
@@ -74,3 +70,7 @@ as well as some independent implementations:
 [vigra]: http://ukoethe.github.io/vigra/doc/vigranumpy/index.html
 [mahotas]: http://luispedro.org/software/mahotas
 [scipimage]: http://docs.scipy.org/doc/scipy/reference/ndimage.html
+
+**Reference**
+
+* Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of Pléiades orthoimagery**][http://publications.jrc.ec.europa.eu/repository/handle/JRC82308], _Publications Office of the European Union_, doi:[0.2788/97660](http://dx.doi.org/10.2788/97660).
