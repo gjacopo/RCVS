@@ -73,6 +73,6 @@ as well as some independent implementations:
 [mahotas]: http://luispedro.org/software/mahotas
 [scipimage]: http://docs.scipy.org/doc/scipy/reference/ndimage.html
 
-**Reference**
+**<a name="Reference"></a>Reference**
 
 * Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of Pléiades orthoimagery**](http://publications.jrc.ec.europa.eu/repository/handle/JRC82308), _Publications Office of the European Union_, doi:[0.2788/97660](http://dx.doi.org/10.2788/97660).
