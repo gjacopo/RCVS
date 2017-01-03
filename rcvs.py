@@ -263,7 +263,7 @@ RCVS_KEY_ARGS              = 'args'
 RCVS_KEY_KWARGS            = 'kwargs'
 
 ## final list of keys used for configuring the processing workflow
-RCVS_KEYLIST_WORK          =                                           \
+RCVS_KEYLIST_WORK          =                                      \
                        (RCVS_KEY_MODULE, RCVS_KEY_FUNCTION,       \
                         RCVS_KEY_IN, RCVS_KEY_OUT,                \
                         RCVS_KEY_ARGS, RCVS_KEY_KWARGS,           \
