@@ -8,11 +8,11 @@ Module for automatization of geo-processing workflow over raster and vector data
 
 Based on [`RIOS`][RIOS] original module for *Raster Computer Vision Simplification* (as part of the [`RSGISLib`](RSGISLib) library), this module extends the implementation for further integration of Computer Vision and Image Processing processing features. See [references](#References) below.
 
-*version*:      0.9
-
-*since*:        Fri May 31 10:20:51 2013
-
-*license*:      [EUPL](https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdf)
+<table align="center">
+    <tr> <td align="left"><i>version</i></td> <td align="left">0.9</td> </tr> 
+    <tr> <td align="left"><i>since</i></td> <td align="left">Fri May 31 10:20:51 2013</td> </tr> 
+    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a>  <i>(mention the source code or the report below)</i> </td> </tr> 
+</table>
 
 **Description**
    
