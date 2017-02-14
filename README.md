@@ -76,5 +76,5 @@ as well as some independent implementations:
 
 **<a name="References"></a>References**
 
-* Grazzini J., Lemajic, S. and Aastrand P. (2013): [**External quality control of Pleiades orthoimagery**](http://publications.jrc.ec.europa.eu/repository/handle/JRC82308), _Publications Office of the European Union_, doi:[10.2788/97660](http://dx.doi.org/10.2788/97660).
+* Grazzini J., Lemajic S. and Aastrand P. (2013): [**External quality control of Pleiades orthoimagery**](http://publications.jrc.ec.europa.eu/repository/handle/JRC82308), _Publications Office of the European Union_, doi:[10.2788/97660](http://dx.doi.org/10.2788/97660).
 * Bunting P., Clewley D., Lucas R.M., and Gillingham S. (2014): [**The Remote Sensing and GIS Software Library (RSGISLib)**](http://www.sciencedirect.com/science/article/pii/S0098300413002288), _Computers & Geosciences_, 62:216-226, doi:[10.1016/j.cageo.2013.08.007](http://dx.doi.org/10.1016/j.cageo.2013.08.007).
