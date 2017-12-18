@@ -1,7 +1,7 @@
 RCVS
 ====
 
-Module for automatization of geo-processing workflow over raster and vector data.
+Module for automatisation of geo-processing workflow over raster and vector data.
 ---
 
 **About**
