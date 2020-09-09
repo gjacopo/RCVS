@@ -4,15 +4,7 @@ RCVS
 Module for automatisation of geo-processing workflow over raster and vector data.
 ---
 
-**About**
-
 Based on [`RIOS`][RIOS] original module for *Raster Computer Vision Simplification* (as part of the [`RSGISLib`](RSGISLib) library), this module extends the implementation for further integration of Computer Vision and Image Processing processing features. See [references](#References) below.
-
-<table align="center">
-    <tr> <td align="left"><i>version</i></td> <td align="left">1.0 <i>(non-active development)</i> </td> </tr> 
-    <tr> <td align="left"><i>since</i></td> <td align="left">Fri May 31 10:20:51 2013</td> </tr> 
-    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a>  <i>(cite the source code or the report below!)</i> </td> </tr> 
-</table>
 
 **Description**
    
@@ -73,6 +65,14 @@ as well as some independent implementations:
 [vigra]: http://ukoethe.github.io/vigra/doc/vigranumpy/index.html
 [mahotas]: http://luispedro.org/software/mahotas
 [scipimage]: http://docs.scipy.org/doc/scipy/reference/ndimage.html
+
+**About**
+
+<table align="center">
+    <tr> <td align="left"><i>version</i></td> <td align="left">1.0 <i>(non-active development)</i> </td> </tr> 
+    <tr> <td align="left"><i>since</i></td> <td align="left">Fri May 31 10:20:51 2013</td> </tr> 
+    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a>  <i>(cite the source code or the report below!)</i> </td> </tr> 
+</table>
 
 **<a name="References"></a>References**
 
